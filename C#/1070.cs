@@ -16,7 +16,7 @@ class URI
 
     static void Main(string[] args)
     {
-        int number = int.Parse(Console.ReadLine());//8
+        int number = int.Parse(Console.ReadLine());
         int counter = 0;
 
         while (counter < 6)
