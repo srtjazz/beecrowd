@@ -19,21 +19,21 @@ class URI
 	{
 		int n = int.Parse(Console.ReadLine());
 		int next = 0;
-		int before = 0;
+		int previous = 0;
 		int actual = 1;
 
 		for (int i = 1; i <= n; i++)
 		{
             if (i == n)
             {
-                Console.WriteLine(before);
+                Console.WriteLine(previous);
             }
             else
             {
-                Console.Write(before + " ");
+                Console.Write(previous + " ");
             }
-			next = before + actual;
-			before = actual;
+			next = previous + actual;
+			previous = actual;
 			actual = next;
         }
 	}
