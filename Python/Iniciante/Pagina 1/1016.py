@@ -18,7 +18,4 @@
 
 distance = int(input())
 
-# carro 1 - 60km/h 
-# carro 2 - 90km/h
-
 print(f"{distance * 2} minutos")

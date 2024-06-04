@@ -18,12 +18,8 @@ import math
 
 x1, y1 = map(float, input().split()) 
 
-
 x2, y2 = map(float, input().split()) 
 
-
-# p1 - 1, 7
-# p2 - 5, 9
 distance = pow(x2-x1, 2) + pow(y2-y1, 2)
 
 print(f"{math.sqrt(distance):.4f}")
